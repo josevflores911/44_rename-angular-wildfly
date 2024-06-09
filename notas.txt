@@ -1,0 +1,62 @@
+figma
+wildfly
+java 17
+springboot 3
+
+jsonwebtoken
+
+node                 20.11.0
+angular 18
+tailwind for style <- IA generator 
+interface interceptor
+dbjson jsonserver
+material 13
+ngrx
+
+postgrsql
+
+
+usuarios 
+id
+role
+key
+username
+
+date access
+
+------------------------------------------------------------------------
+-by default all components are standalone what means that not need modules
+-to create non standalone ng g c --standalone false
+or can be changed the file angular.json
+-npx must be used when angular is not installed globally
+input 
+output
+interceptor
+
+
+------------------------------------------------------------------------
+
+
+localhost:3000/users
+localhost:4200
+-------------------------------------------------------------------------
+mkdir <foldername>
+ng new <appname>
+node version
+ng version 13 -> 17
+
+npm install -g @angular/cli
+npm uninstall -g @angular/cli
+npm cache clean --force
+
+ng update @angular/core@17 @angular/cli@17
+
+material:
+[npx] ng add @angular/material
+
+tailwind styles
+npm i tailwindcss
+
+fakeapi:
+npm i -D json-server
+npx json-server db.json

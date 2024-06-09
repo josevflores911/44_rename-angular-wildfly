@@ -1,0 +1,38 @@
+<div style="padding: 10px;background-color: lightyellow;border-radius: 10px;">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <h2>Login</h2>
+    <div>
+      <mat-form-field>
+        <mat-label>Username</mat-label>
+        <input type="text" matInput formControlName="username" >
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>  
+          <mat-label>Password</mat-label>
+          <input type="password" matInput formControlName="password" >      
+      </mat-form-field>
+    </div>
+    <div>
+      <button type="submit">Send</button>
+    </div>
+    </form>  
+</div>
+
+
+<!--
+  <div style="display: flex ;flex-direction: column;background-color: cornsilk; padding: 20px;">
+    <h2>Loging</h2>
+    <form (ngSubmit)="onSubmit()" >
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" [(ngModel)]="formData.username" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" [(ngModel)]="formData.password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+</div>
+-->

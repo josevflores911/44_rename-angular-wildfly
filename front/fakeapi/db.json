@@ -1,0 +1,22 @@
+{
+    "users":[
+        {
+            "id":"1",
+            "username":"J",
+            "role":"admin",
+            "key":"@@@"
+        },
+        {
+            "id":"2",
+            "username":"A",
+            "role":"user",
+            "key":"@@@"
+        },
+        {
+            "id":"3",
+            "username":"B",
+            "role":"super",
+            "key":"@@@"
+        }
+    ]
+}
