@@ -1,18 +1,18 @@
 // import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-// import { LoopComponent } from './loop.component';
+// import { BodyComponent } from './body.component';
 
-// describe('LoopComponent', () => {
-//   let component: LoopComponent;
-//   let fixture: ComponentFixture<LoopComponent>;
+// describe('BodyComponent', () => {
+//   let component: BodyComponent;
+//   let fixture: ComponentFixture<BodyComponent>;
 
 //   beforeEach(async () => {
 //     await TestBed.configureTestingModule({
-//       imports: [LoopComponent]
+//       imports: [BodyComponent]
 //     })
 //     .compileComponents();
 
-//     fixture = TestBed.createComponent(LoopComponent);
+//     fixture = TestBed.createComponent(BodyComponent);
 //     component = fixture.componentInstance;
 //     fixture.detectChanges();
 //   });

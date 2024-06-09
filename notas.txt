@@ -1,3 +1,7 @@
+double click in squares open a window in closeable area that when click should not be unselect the squares but just if this window is open
+so posible solution an attribute passed to check if is opened
+-------------------------------------------------------------------
+
 figma
 wildfly
 java 17
@@ -9,9 +13,11 @@ node                 20.11.0
 angular 18
 tailwind for style <- IA generator 
 interface interceptor
-dbjson jsonserver
+dbjson jsonserver  simulador de api
 material 13
 ngrx
+
+prettier     faltando configurar
 
 postgrsql
 
@@ -29,6 +35,17 @@ date access
 -to create non standalone ng g c --standalone false
 or can be changed the file angular.json
 -npx must be used when angular is not installed globally
+
+testes 2 funcionando (hay un tercero) son 8 creados
+FormsModule permite que ngmodel (two way binding) funcione 
+existe un elemento deprecated en los testes
+
+injeccion de servicios mudo de private service in constructor to --> inject(SERVICE)
+ngfor mudo para --> @for()  //similar a php
+
+para usar http request se configuro un proxy para hacer los llamados a la puerta localhost:3000
+
+
 input 
 output
 interceptor
