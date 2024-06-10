@@ -6,13 +6,13 @@ figma
 wildfly
 java 17
 springboot 3
-
-jsonwebtoken
+spring security 6.3 --- 6.1 deprecated  (interface interceptor in angular)
+jsonwebtoken  --- bearer
 
 node                 20.11.0
 angular 18
 tailwind for style <- IA generator 
-interface interceptor
+
 dbjson jsonserver  simulador de api
 material 13
 ngrx
